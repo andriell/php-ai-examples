@@ -13,6 +13,12 @@ require_once __DIR__ . '/../vendor/autoload.php';
 use Phpml\Classification\KNearestNeighbors;
 use Phpml\Math\Distance\Euclidean;
 
+// 0 1 2 3 4 5
+// 1     a a *
+// 2       a
+// 3 b *
+// 4 b b
+
 $samples = [[1, 3], [1, 4], [2, 4], [3, 1], [4, 1], [4, 2]];
 $labels = ['a', 'a', 'a', 'b', 'b', 'b'];
 
