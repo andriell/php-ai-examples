@@ -1,0 +1,13 @@
+{
+    "name": "andriell/php-ai-examples",
+    "license": "",
+    "authors": [
+        {
+            "name": "andriell",
+            "email": "root.andriell@gmail.com"
+        }
+    ],
+    "require": {
+        "php-ai/php-ml": "^0.6.2"
+    }
+}
