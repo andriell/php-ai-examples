@@ -11,6 +11,6 @@ include_once('SIFT.php');
 
 $sift = new SIFT();
 
-$sift->setImage(__DIR__ . 'beaver.png');
+$sift->setImage(__DIR__ . '/beaver.png');
 $sift->setTmpDir(__DIR__ . '/tmp');
 $sift->calculateBlur();
